@@ -61,3 +61,4 @@ wait(0.01)
 Caption.Visible = true
 wait(3)
 Caption.Visible = false
+Player.PlayerGui.CustomCaption:Destroy()
