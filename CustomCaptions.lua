@@ -1,6 +1,6 @@
 -- Instances:
---local Players = game:GetService("Players")
---local Plr = Players.LocalPlayer
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
 --local TextCustom = "*jiggles your balls*"
 local CustomCaption = Instance.new("ScreenGui")
 local Caption = Instance.new("TextLabel")
@@ -12,7 +12,7 @@ local UIGradient = Instance.new("UIGradient")
 --Properties:
 
 CustomCaption.Name = "CustomCaption"
-CustomCaption.Parent = game.Players.CheeseFarmerFNF.PlayerGui
+CustomCaption.Parent = game.Player.PlayerGui
 CustomCaption.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Caption.Name = "Caption"
