@@ -1,4 +1,5 @@
 -- Instances:
+local TextCustom = "*jiggles your balls*"
 local CustomCaption = Instance.new("ScreenGui")
 local Caption = Instance.new("TextLabel")
 local UIPadding = Instance.new("UIPadding")
