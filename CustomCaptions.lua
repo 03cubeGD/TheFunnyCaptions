@@ -12,7 +12,7 @@ local UIGradient = Instance.new("UIGradient")
 --Properties:
 
 CustomCaption.Name = "CustomCaption"
-CustomCaption.Parent = game.Player.PlayerGui
+CustomCaption.Parent = Player.PlayerGui
 CustomCaption.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Caption.Name = "Caption"
