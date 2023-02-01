@@ -1,4 +1,5 @@
 -- Instances:
+local Players = game:GetService("Players")
 local Plr = Players.LocalPlayer
 local TextCustom = "*jiggles your balls*"
 local CustomCaption = Instance.new("ScreenGui")
